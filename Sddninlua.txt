@@ -314,7 +314,7 @@ v5:Destroy();
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
     Title = "Sddnin Hub",
-    SubTitle = "Blox Fruit",
+    SubTitle = "",
     TabWidth = 160,
     Theme = "Dark",
     Acrylic = false,
@@ -323,7 +323,7 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Thông Tin"
+        Title = "Home"
     }),
     Main = v15:AddTab({
         Title = "Farm"
@@ -341,7 +341,7 @@ local v16 = {
         Title = "Sever"
     }),
     Stats = v15:AddTab({
-        Title = "Stat"
+        Title = "Stats"
     }),
     Player = v15:AddTab({
         Title = "Player"
@@ -350,7 +350,7 @@ local v16 = {
         Title = "Teleport"
     }),
     Visual = v15:AddTab({
-        Title = "Fake"
+        Title = "Visual"
     }),
     Fruit = v15:AddTab({
         Title = "Fruits"
@@ -365,7 +365,7 @@ local v16 = {
         Title = "Shop"
     }),
     Misc = v15:AddTab({
-        Title = "Khác"
+        Title = "Misc"
     })
 };
 local v17 = v14.Options;
@@ -407,14 +407,14 @@ function CheckLevel()
             CFrameMon = CFrame.new(1038.5533447266, 41.296249389648, 1576.5098876953);
         elseif ((v197 == 10) or (v197 <= 14) or (SelectMonster == "Monkey")) then
             Ms = "Monkey";
-            NameQuest = "JungleQuest";
+            NameQuest = "AdventerQuest";
             QuestLv = 1;
             NameMon = "Monkey";
             CFrameQ = CFrame.new(- 1601.6553955078, 36.85213470459, 153.38809204102);
             CFrameMon = CFrame.new(- 1448.1446533203, 50.851993560791, 63.60718536377);
         elseif ((v197 == 15) or (v197 <= 29) or (SelectMonster == "Gorilla")) then
             Ms = "Gorilla";
-            NameQuest = "JungleQuest";
+            NameQuest = "AdventerQuest";
             QuestLv = 2;
             NameMon = "Gorilla";
             CFrameQ = CFrame.new(- 1601.6553955078, 36.85213470459, 153.38809204102);
