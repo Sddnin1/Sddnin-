@@ -326,7 +326,7 @@ local v16 = {
         Title = "Home"
     }),
     Main = v15:AddTab({
-        Title = "Farm"
+        Title = "Main"
     }),
     Sea = v15:AddTab({
         Title = "Event"
@@ -406,14 +406,14 @@ function CheckLevel()
             CFrameQ = CFrame.new(1060.9383544922, 16.455066680908, 1547.7841796875);
             CFrameMon = CFrame.new(1038.5533447266, 41.296249389648, 1576.5098876953);
         elseif ((v197 == 10) or (v197 <= 14) or (SelectMonster == "Monkeys")) then
-            Ms = "Monkey";
+            Ms = "Monkeys";
             NameQuest = "Adventurer";
             QuestLv = 1;
             NameMon = "Monkey";
             CFrameQ = CFrame.new(- 1601.6553955078, 36.85213470459, 153.38809204102);
             CFrameMon = CFrame.new(- 1448.1446533203, 50.851993560791, 63.60718536377);
-        elseif ((v197 == 15) or (v197 <= 29) or (SelectMonster == "Gorilla")) then
-            Ms = "Gorilla";
+        elseif ((v197 == 15) or (v197 <= 29) or (SelectMonster == "Gorillas")) then
+            Ms = "Gorillas";
             NameQuest = "Adventurer";
             QuestLv = 2;
             NameMon = "Gorilla";
